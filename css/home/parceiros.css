@@ -13,7 +13,8 @@
   padding: 0 20px;
 }
 .parceiros li {
-  padding: 20px;
+  display: flex;
+  padding: 32px;
   border-left: 2px solid var(--cor-2);
 }
 .parceiros img{
@@ -32,6 +33,10 @@
 @media (max-width:800px){
   .parceiros{
     padding-bottom: 60px;
+  }
+  .parceiros li {
+    display: flex;
+    padding: 20px;
   }
   .parceiros h2{
     margin-bottom: 20px;
